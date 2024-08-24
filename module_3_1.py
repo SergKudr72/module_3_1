@@ -13,7 +13,7 @@ def is_contains(string, list_to_search):
     for items in list_to_search:
         if string.lower() in items.lower():
             return True
-            return False
+    return False
 
 print(string_info('Capybara'))
 print(string_info('Armageddon'))
